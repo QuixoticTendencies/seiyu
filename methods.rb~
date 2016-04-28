@@ -37,16 +37,4 @@ def pop_ar_mal(un)
 	return smal
 end
 
-def pop_ar_col(url, un)
-	mal = Array.new()
-	sei = Array.new()
-	inv = Array.new()
-	col = Array.new()
-	mal = pop_ar_mal(un)
-	sei = pop_ar_sei(url, 2)
-	inv = sei - mal
-	col = sei - inv
-	return col
-end
-
-puts pop_ar_col('http://myanimelist.net/people/599/Aki_Toyosaki', 'quixten')
+puts pop_ar_sei('http://myanimelist.net/people/599/Aki_Toyosaki', 2)
