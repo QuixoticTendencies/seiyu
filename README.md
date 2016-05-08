@@ -1,6 +1,9 @@
 # seiyu
 Command line helper tool for knowing where you might have heard a voice actor before. Interfaces with MyAnimeList.net
 
+## Note
+This program expects Ruby version 2.0.0. Other versions may work, but results are not guaranteed.
+
 ## Installation
 `$ cd ~`  
 `$ git clone https://github.com/QuixoticTendencies/seiyu.git`  
